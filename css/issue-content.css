@@ -1,0 +1,36 @@
+body{
+	background: #ddd;
+}
+.contain{
+	background: #fff;
+}
+.text-area{
+	padding: 1.2rem;
+	border: none;
+	font-size: 1.3rem;
+}
+.onload{
+	padding-bottom: 1rem;
+	border-bottom:1px #ddd solid; 
+}
+.onload-img{
+	border: 1px solid #ddd;
+	font-size: 5rem;
+	width: 6rem;
+	height: 6rem;
+	color: #ddd;
+	text-align: center;
+	line-height: 6rem;
+	margin-left: 1rem;
+}
+.face{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.face li{
+	float: left
+}
+.face li img{
+	width: 2rem;
+	margin-left: 1.5rem;
+}

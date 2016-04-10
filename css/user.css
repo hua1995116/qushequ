@@ -1,0 +1,91 @@
+body{
+	background: #fff;
+}
+/*title*/
+.content-title{
+	padding-top: 10%;
+}
+.title-img{
+	width: 100%;
+}
+.title-img img{
+	border-radius: 50px;
+	border: 1px solid #ddd;
+	width: 7rem;
+	margin:0px auto;
+}
+.title-name {
+	padding-top: 3%;
+	font-size: 1.6rem;
+	text-align: center;
+}
+.title-name img{
+	height: 1.8rem;
+	padding: 0.1rem;
+	margin:0.1rem;
+}
+.title-address{
+	font-size: 1.3rem;
+	text-align: center;
+}
+.title-list{
+	width: 60%;
+	text-align: center;
+}
+.col-xs-4{
+	padding: 0;
+	font-size: 1.2rem;
+}
+.col-xs-4 span{
+	color:#9C7878;
+	font-size: 1.2rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+/*content-list*/
+.content-list{
+	padding-top: 5%;
+	padding-bottom: 3%;
+	border-bottom: 1px solid #ddd;
+}
+.vertical{
+	border-left: 1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+.col-xs-6{
+	padding: 1%;
+	font-size: 1.3rem;
+	text-align: center;
+	border:1px solid #14907b;
+}
+.row{
+	padding: 0;
+	margin:0;
+}
+.row .col-xs-6:nth-child(1){
+	border-radius: 50px 0 0 50px;
+}
+.row .col-xs-6:nth-child(2){
+	border-radius:  0  50px 50px 0;
+}
+.click{
+	background: #14907b;
+	color:#fff;
+}
+/*modification*/
+.modification{
+	position: absolute;
+	top:20%;
+	left:75%;
+	width: 5.3rem;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 20px;
+	border: 1px solid #14907b;
+	color:#14907b;
+	font-size: 0.8rem;
+}
+.modification img{
+	margin-left: 0.4rem;
+	height: 1.4rem;
+}

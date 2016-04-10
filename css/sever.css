@@ -1,0 +1,115 @@
+/*banner*/
+/*.img-change{
+	transition: all 1s;
+}
+.point{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 14%;
+	left: 85%;
+	overflow: hidden;
+}
+.point li{
+	list-style-type: none;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	float: left;
+	margin: 2px;
+	border:1px solid #fff;
+}
+.point .click{
+	background-color: #fff;
+}*/
+/*listgroup*/
+.list-group-item:last-child,.list-group-item:first-child{
+	border-radius: 0;
+}
+.list-group-item img{
+	height: 2rem;
+	padding-left:2%; 
+	padding-right:2%;
+}
+.list-group-item{
+	font-size: 1.3rem;
+	color:#233946;
+}
+.list-group-item span{
+	color:#ddd;
+}
+/* jquery.hiSlider.css */
+.hiSlider {
+	overflow: hidden;
+
+	width: 500px;
+	background: #eee;
+}
+
+.hiSlider-item {
+	float: left;
+}
+.hiSlider-item img{
+	width: 100%;
+}
+.hiSlider-pages,
+.hiSlider-title{
+    position: absolute;
+    z-index: 3;
+}
+
+.hiSlider-btn-prev,
+.hiSlider-btn-next{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    background:  url(../images/hislider-arrow.png) no-repeat;
+    margin-top: -15px;
+    text-indent: -200px;
+    overflow: hidden;
+    opacity: .6;
+    filter:alpha(opacity:60);
+}
+.hiSlider-btn-prev{
+    left: 10px;
+}
+.hiSlider-btn-next{
+    right: 10px;
+    background-position: -30px 0;
+}
+.hiSlider-btn-prev:hover,
+.hiSlider-btn-next:hover{
+    opacity: 1;
+    filter:alpha(opacity:100);
+}
+.hiSlider-title{
+    bottom: 0;
+    width: 100%;
+    padding: 6px 0;
+    color: #fff;
+    text-indent: 10px;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+    font: 14px/2 "Microsoft YaHei", "Arial", "Tahoma"
+}
+.hiSlider-pages{
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}
+.hiSlider-pages a{
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -100px;
+    font-size: 0;
+    border-radius: 50%;
+    background: #ddd;
+}
+.hiSlider-pages a.active{
+    background: #5472BF;
+}
