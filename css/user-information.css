@@ -1,0 +1,52 @@
+body{
+	background: #fff;
+}
+p{
+	font-size: 1.4rem;
+}
+p span{
+	color: #AEAEAE;
+	padding-left: 0.5rem;
+}
+/*title*/
+
+.look-list{
+	border-bottom: 1px solid #ddd;
+}
+.look-title .col-xs-6{
+	text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+	border-bottom: 1px solid #ddd;
+}
+.ul-list{
+	padding-top: 1rem;
+}
+.ul-list .click{
+	border-bottom: 1px solid #14907b;
+}
+.title-name{
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 1.4rem;
+	color: #8C8C8C;
+}
+.between{
+	border-left: 1px solid #ddd;
+}
+/*content*/
+.information{
+	border-bottom:1px solid #ddd;
+}
+.right-content p:nth-child(1){
+	font-size: 1.5rem;
+	padding-top: 1.2rem;
+}
+.right-content p:nth-child(2){
+	color: #AEAEAE;
+}
+.img-responsive{
+	border-radius: 50%;
+	padding: 1rem;
+}

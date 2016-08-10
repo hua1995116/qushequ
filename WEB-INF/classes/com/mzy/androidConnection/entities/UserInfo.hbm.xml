@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-4-25 22:40:20 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.mzy.androidConnection.entities.UserInfo" table="USERINFO">
+		<id name="id" type="java.lang.Integer">
+			<column name="ID" />
+			<generator class="native" />
+		</id>
+		<property name="username" type="java.lang.String">
+			<column name="USERNAME" />
+		</property>
+		<property name="password" type="java.lang.String">
+			<column name="PASSWORD" />
+		</property>
+		<property name="name" type="java.lang.String">
+			<column name="NAME" />
+		</property>
+		<property name="sex" type="java.lang.String">
+			<column name="SEX" />
+		</property>
+		<property name="location_dq" type="java.lang.String">
+			<column name="LOCATION_DQ" />
+		</property>
+		<property name="location_xq" type="java.lang.String">
+			<column name="LOCATION_XQ" />
+		</property>
+		<property name="location_dy" type="java.lang.String">
+			<column name="LOCATION_DY" />
+		</property>
+		<property name="phoneNumber" type="java.lang.String">
+			<column name="PHONENUMBER" />
+		</property>
+		<property name="headImg" type="java.lang.String">
+			<column name="HEADIMG" />
+		</property>
+		<property name="distant" type="float">
+			<column name="DISTANT" />
+		</property>
+		<property name="jifen" type="java.lang.Integer">
+			<column name="JIFEN" />
+		</property>
+	</class>
+</hibernate-mapping>

@@ -34,6 +34,16 @@
 	padding-bottom: 2%;
 	border-bottom:1px #ddd solid;
 }
+.select div:nth-child(1){
+	font-size: 1.2rem;
+	width: 50%;
+	float: left;
+	border:1px #14907b solid;
+	color:#14907b;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
 .select div:nth-child(2){
 	font-size: 1.2rem;
 	width: 50%;
@@ -44,7 +54,7 @@
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
-.click{
+.list-tool .select .click{
 	font-size: 1.2rem;
 	width: 50%;
 	float: left;
@@ -98,7 +108,7 @@
 	padding-top: 30%;
 }
 .infor-title{
-	border-bottom:1px #ddd solid;
+	
 }
 .infor-title .col-xs-2{
 	padding: 0;
@@ -112,22 +122,30 @@
 	border-radius: 50px;
 }
 .line-one{
-	margin-bottom:0.5rem ;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	margin-bottom:0.3rem ;
 }
 .line-one span img {
 	height: 1.1rem;
 	padding-left: 0.2rem;
+	padding-bottom: 0.8%;
 }
 .line-one span{
 	margin-right: 8%;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 .line-one span:nth-child(2){
+	display: block;
+	position: absolute;
+	text-align: center;
+	width: 3.5rem;
+	height: 1.4rem;
+	line-height: 1.5rem;
 	font-size: 0.8rem;
-	color:#14907b;
 	border-radius: 50px;
-	border:1px #14907b solid;
-	padding:0.1rem 0.8rem;
+	left: 36%;
+	top:7%;
 }
 .line-two{
 	color: #14907b;
@@ -141,12 +159,18 @@
 	font-size: 1.4rem;
 	color:#353a3d;
 	max-height: 14rem;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 .infor-img .col-xs-3{
+	width: 6rem;
+	height: 6rem;
+	overflow: hidden;
 	padding-right: 1%;
     padding-left: 1%;
+}
+.infor-img .col-xs-3 img{
+	width: 100%;
+	height: 100%;
 }
 .infor-tool img{
 	height: 1.4rem;

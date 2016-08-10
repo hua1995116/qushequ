@@ -1,0 +1,14 @@
+.content{
+	width: 94%;
+	margin: 1rem auto 0;
+	font-size: 1.4rem;
+}
+.join {
+    background: #fff;
+    border-bottom: 0;
+}
+.join-list {
+    border-top:1px solid #ddd;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

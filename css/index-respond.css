@@ -113,12 +113,13 @@
 }
 .respond-content{
 	padding-bottom: 1rem;
+	font-size: 1.3rem;
 }
 .text-img img{ 
 	margin-top: 0.5rem;
 	width: 2.5rem;
 }
-.text-issue{
+.text-issue{font-size: 1.2rem;
 	margin-top: 0.5rem;
 	height: 2.5rem;
 	width: 100%;
@@ -129,6 +130,7 @@
 	padding: 0.4rem;
 }
 .submit-issue{
+	font-size: 1.1rem;
 	margin-top: 0.5rem;
 	height: 2.5rem;
 	background: #14907b;

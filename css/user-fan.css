@@ -1,0 +1,95 @@
+body{
+	background: #fff;
+}
+/*title*/
+.list-title{
+    background: #F9F9F9;
+}
+.center-block{
+    color: #424242;
+}
+.center-block .pull-right{
+	margin-right: 5%;
+}
+.center-block .pull-right a{
+	color: #000;
+}
+.search{
+	padding-top: 0.3rem;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #ddd;
+}
+.search-button{
+	margin-left: 5%;
+	width: 80%;
+	background: #fff;
+	border-radius: 50px;
+	border:1px solid #ddd;
+	height: 2.4rem;
+	font-size: 1.3rem;
+	color: #C5C5C5;
+}
+.glyphicon{
+	top:0.5rem;
+	left: 0.6rem;
+	font-size: 2rem;
+	color: #C5C5C5;
+}
+.search-img{
+	height: 2rem;
+	padding: 0.1rem 0rem 0.5rem 0.2rem;
+}
+/*content*/
+.list-respond{
+	padding-top: 2%;
+	border-bottom:1px solid #ddd;
+}
+.fan-look span{
+	color: #B8E058;
+	position: absolute;
+	top:15%;
+	right: 5%;
+	border:1px solid #B8E058;
+	border-radius: 3px;
+	padding: 1% 2% 1% 2%;
+}
+.fan-look .looked{
+	color: #ddd;
+	border:1px solid #ddd;
+}
+.infor-title-img{
+	border:1px solid #ddd;
+	height: 4.5rem;
+	border-radius: 50px;
+}
+.line-one{
+	margin-bottom:0.5rem ;
+}
+.line-one span img {
+	height: 1.1rem;
+	padding-left: 0.2rem;
+	padding-bottom: 0.1rem;
+}
+.line-one span{
+	margin-right: 8%;
+	font-size: 1.3rem;
+
+}
+.line-one span:nth-child(2){
+	font-size: 0.8rem;
+	color:#14907b;
+	border-radius: 50px;
+	border:1px #14907b solid;
+	padding:0.1rem 0.8rem;
+}
+.line-two{
+	color: #14907b;
+	font-size: 1.2rem;
+	margin-bottom:0.5rem ;
+}
+.line-two span{
+	margin-right: 3%;
+}
+.respond-content{
+	padding-bottom: 1rem;
+}

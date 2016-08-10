@@ -1,0 +1,130 @@
+body{
+    background: #F2F2F2;
+}
+.contain{
+    background: #F2F2F2;
+}
+.row{
+    border-bottom: 1px solid #ddd;
+}
+.col-xs-4{
+    padding-left: 5%;
+}
+.order-list{
+    background: #Fff;
+    margin: 1rem 0;
+}
+.correct{
+    background: #fff;
+    margin-bottom: 1.5rem;
+}
+.correct li{
+    color: #9B9B9B;
+    font-size: 1.4rem;
+    padding: 3% 0;
+}
+.correct li .col-xs-6{
+    color: #E5E5E5;
+}
+.correct li .col-xs-6 input{
+    border: 0;
+}
+.input-submit{
+    padding-top: 2%;
+}
+.input-submit input{
+    color:#5FA697;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding:3% 0 2% 0;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.input-tip{
+    width: 60%;
+    margin: 0 auto;
+}
+.next input{
+    width: 50%;
+    margin:0 auto;
+    display: block;
+    height: 3rem;
+    background: #fff;
+    border:1px solid #419A88;
+}
+/* jquery.hiSlider.css */
+.hiSlider {
+	overflow: hidden;
+
+	width: 500px;
+	background: #eee;
+}
+
+.hiSlider-item {
+	float: left;
+}
+.hiSlider-item img{
+	width: 100%;
+}
+.hiSlider-pages,
+.hiSlider-title{
+    position: absolute;
+    z-index: 3;
+}
+
+.hiSlider-btn-prev,
+.hiSlider-btn-next{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    background:  url(../images/hislider-arrow.png) no-repeat;
+    margin-top: -15px;
+    text-indent: -200px;
+    overflow: hidden;
+    opacity: .6;
+    filter:alpha(opacity:60);
+}
+.hiSlider-btn-prev{
+    left: 10px;
+}
+.hiSlider-btn-next{
+    right: 10px;
+    background-position: -30px 0;
+}
+.hiSlider-btn-prev:hover,
+.hiSlider-btn-next:hover{
+    opacity: 1;
+    filter:alpha(opacity:100);
+}
+.hiSlider-title{
+    bottom: 0;
+    width: 100%;
+    padding: 6px 0;
+    color: #fff;
+    text-indent: 10px;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+    font: 14px/2 "Microsoft YaHei", "Arial", "Tahoma"
+}
+.hiSlider-pages{
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}
+.hiSlider-pages a{
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -100px;
+    font-size: 0;
+    border-radius: 50%;
+    background: #ddd;
+}
+.hiSlider-pages a.active{
+    background: #5472BF;
+}

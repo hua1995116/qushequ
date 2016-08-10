@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-5-17 14:10:08 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.mzy.androidConnection.entities.YbHome" table="YBHOME">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <many-to-one name="master" class="com.mzy.androidConnection.entities.UserInfo" fetch="join">
+            <column name="MASTER" />
+        </many-to-one>
+        <property name="content" type="java.lang.String" access="field">
+            <column name="CONTENT" />
+        </property>
+        <property name="wild" type="java.lang.String">
+            <column name="WILD" />
+        </property>
+        <property name="limitMember" type="java.lang.Integer">
+            <column name="LIMITMEMBER" />
+        </property>
+        <property name="joinMember" type="java.lang.Integer">
+            <column name="JOINMEMBER" />
+        </property>
+        <property name="isBegin" type="boolean" access="field">
+            <column name="ISBEGIN" />
+        </property>
+    </class>
+</hibernate-mapping>

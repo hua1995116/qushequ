@@ -1,0 +1,43 @@
+body{
+	background: #F0F0F0;
+}
+.contain{
+	background: #F0F0F0;
+}
+.title{
+	background: #E5E5E5;
+}
+.row{
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.search{
+	font-size: 1.5rem;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+.container{
+	color: #D1D1CF;
+	padding: 1rem 0;
+	background: #FCFCFA;	
+}
+.container img{
+	padding-left: 5%;
+	height: 1.4rem;
+	padding-bottom: 0.2rem;
+	margin-right: 0.3rem;
+}
+.col-xs-3{
+	color: #B2B2B2;
+	font-size: 1.4rem;
+	padding: 2% 3%;
+	background: #fff;
+	margin: 2% 3%;
+	text-align: center;
+}
+.title{
+	text-indent: 1.2rem;
+	font-size: 1.3rem;
+	line-height: 1.4rem;
+}

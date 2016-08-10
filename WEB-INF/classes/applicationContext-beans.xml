@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="jzCompanyDao" class="com.mzy.androidConnection.dao.JzCompanyDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="userDao" class="com.mzy.androidConnection.dao.UserDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="dialogDao" class="com.mzy.androidConnection.dao.DialogDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="evaluateDao" class="com.mzy.androidConnection.dao.EvaluateDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="offerDao" class="com.mzy.androidConnection.dao.OfferDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="ybDao" class="com.mzy.androidConnection.dao.YbDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+
+
+	<bean id="userService" class="com.mzy.androidConnection.service.UserService">
+		<property name="userDao" ref="userDao"></property>
+	</bean>
+	<bean id="jzCompanyService" class="com.mzy.androidConnection.service.JzCompanyService">
+		<property name="jzCompanyDao" ref="jzCompanyDao"></property>
+	</bean>
+	<bean id="dialogService" class="com.mzy.androidConnection.service.DialogService">
+		<property name="dialogDao" ref="dialogDao"></property>
+	</bean>
+	<bean id="evaluateService" class="com.mzy.androidConnection.service.EvaluateService">
+		<property name="evaluateDao" ref="evaluateDao"></property>
+	</bean>
+	<bean id="offerService" class="com.mzy.androidConnection.service.OfferService">
+		<property name="offerDao" ref="offerDao"></property>
+	</bean>
+	<bean id="ybService" class="com.mzy.androidConnection.service.YbService">
+		<property name="ybDao" ref="ybDao"></property>
+	</bean>
+
+
+
+	<bean id="userAction" class="com.mzy.androidConnection.action.UserAction">
+		<property name="userService" ref="userService"></property>
+		<property name="dialogService" ref="dialogService"></property>
+		<property name="offerService" ref="offerService"></property>
+	</bean>
+	<bean id="jzCompanyAction" class="com.mzy.androidConnection.action.JzCompanyAction">
+		<property name="jzCompanyService" ref="jzCompanyService"></property>
+	</bean>
+	<bean id="ybAction" class="com.mzy.androidConnection.action.YbAction">
+		<property name="ybService" ref="ybService"></property>
+		<property name="userService" ref="userService"></property>
+	</bean>
+	<bean id="dialogAction" class="com.mzy.androidConnection.action.DialogAction">
+		<property name="dialogService" ref="dialogService"></property>
+		<property name="evaluateService" ref="evaluateService"></property>
+		<property name="userService" ref="userService"></property>
+	</bean>
+
+</beans>

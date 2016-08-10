@@ -1,0 +1,101 @@
+body{
+	font-size: 1.2rem;
+	background: #fff;
+}
+.submit-search{
+	border-left: 1px solid #ddd;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 0;
+	margin-left: -3rem;
+	margin-top:1rem;
+	width:3rem;
+	height: 2rem;
+	background: url("../icon/1.png") no-repeat;
+	background-size: 60%;
+	background-position: 25% 70%;
+}
+.search{
+	float: left;
+	border:1px solid #ddd;
+	border-radius: 50px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin-top: 0.7rem;
+	margin-left: 3rem;
+	width: 70%;
+	/*background: url("../icon/1.png") no-repeat;*/
+}
+.list-title{
+	height: 4rem;
+}
+.list-back img{
+	padding: 15% 0 0 5%;
+	margin-left: 1rem;
+	margin-top: 0.2rem;
+}
+.label1{
+	width:100%;
+	position: relative;
+	padding-top: 2rem;
+}
+.label-top{
+	position: absolute;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	height: 3rem;
+	line-height: 3rem;
+	background: #fff;
+	top:1%;
+	left:50%;
+	margin-left: -3.6rem;
+}
+.label-middle{
+	border-top:1px solid #ddd;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #ddd;
+	height: 13rem;
+}
+.label-middle p{
+	display: block;
+	position: absolute;
+	border:1px solid #F9F8F8;
+	padding: 1% 5%;
+	background: #F9F8F8;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.label-middle p:nth-child(1){
+	top:30%;
+	left: 7%;
+}
+.label-middle p:nth-child(2){
+	top: 23%;
+    left: 71%;
+}
+.label-middle p:nth-child(3){
+	top:60%;
+	left: 10%;
+}
+.label-middle p:nth-child(4){
+	top:60%;
+	left: 60%;
+}
+.label-middle p:nth-child(5){
+	top:42%;
+	left: 40%;
+}
+.label-bottom{
+	position: absolute;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	height: 3rem;
+	line-height: 3rem;
+	background: #fff;
+	bottom:-8%;
+	left:50%;
+	margin-left: -2.4rem;
+}

@@ -1,0 +1,73 @@
+body,.contain{
+	background: #ddd;
+}
+/*title*/
+.list-title{
+    background: #F9F9F9;
+}
+.center-block{
+    color: #424242;
+}
+.center-block .pull-right{
+	margin-right: 5%;
+}
+.center-block .pull-right a{
+	color: #000;
+}
+/**/
+.user-order{
+	margin-top: 1rem;
+	background: #fff;
+	font-size: 1.3rem;
+}
+.order-type{
+	height: 3rem;
+	line-height: 3rem;
+	color: #CACACA;
+	border-bottom: 1px solid #ddd;
+}
+.order-content .row{
+	padding-top: 0.7rem;
+	border-bottom: 1px solid #ddd;
+}
+.order-case{
+	line-height: 5rem;
+	height: 5rem;
+}
+.achieve{
+	color: #EF7C38;
+}
+.pull-right span:nth-child(1){
+	color: #B3B3B3;
+}
+.pull-right span:nth-child(2){
+	color: #F17E3D;
+}
+.col-xs-2{
+
+}
+.col-xs-9{
+	padding-left: 1rem;
+}
+.col-xs-9 p{
+	margin:0 0 1rem;
+}
+.col-xs-9 p:nth-child(2){
+	color:#BABABA;
+}
+.col-xs-9 p span{
+	display: block;
+	float: right;
+	font-size: 1.6rem;
+	color: #000;
+}
+.again{
+	width: 50%;
+}
+.again span{
+	border-radius: 3px;
+	padding: 5%;
+	text-align: right;
+	margin-left: 0.1rem;
+	border:1px solid #ddd;
+}

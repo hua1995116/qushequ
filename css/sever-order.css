@@ -1,0 +1,49 @@
+body{
+	background: #F2F2F2;
+}
+.contain{
+	background: #F2F2F2;
+}
+.tip{
+	padding-top: 3%;
+	text-align: center;
+	color: #86B4AA;
+}
+p{
+	margin: 0 0 0.1rem;
+}
+.order-list{
+	background: #Fff;
+	margin: 1rem 0;
+}
+.correct{
+	width: 86%;
+	margin:0 auto;
+}
+.correct li{
+	color: #9B9B9B;
+	font-size: 1.3rem;
+	padding: 0.45rem 0;
+}
+.correct li .col-xs-9{
+	color: #E5E5E5;
+}
+.correct li .col-xs-9 input{
+	border: 0;
+}
+.input-submit{
+	padding-top: 2%;
+}
+.input-submit input{
+	color:#5FA697;
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	padding:3% 0 2% 0;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+.input-tip{
+	width: 60%;
+	margin: 0 auto;
+}

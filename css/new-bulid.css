@@ -1,0 +1,134 @@
+body{
+	background: #ebebeb;
+}
+.img-responsive{
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 50%;
+}
+.contain{
+	background: #ebebeb;
+}
+/*other*/
+.bulid-other{
+	padding: 4% 2%;
+}
+.bulid-other .col-xs-8{
+	width: ;
+	margin-left: 3%;
+}
+.name{
+	color: #CBCCCD;
+	font-size: 1.3rem;
+}
+.content{
+	color: #4E4E4E;
+	font-size: 1.4rem;
+	border:1px solid #ddd;
+	border-radius: 4px;
+	padding: 2% 3%;
+}
+.left{
+	background: #fff;
+}
+.left span{
+	display: block;
+	width:0;
+    height:0;
+    border-width:0.8rem 0.8rem 0.8rem 0;
+    border-style:solid;
+    border-color:transparent #ddd transparent transparent;/*透明 灰 透明 透明 */
+    position:absolute;
+    margin-left: -7%;
+    margin-top: 4%;
+}
+.left span em{
+	display:block;
+    width:0;
+    height:0;
+    border-width:0.8rem 0.8rem 0.8rem 0;
+    border-style:solid;
+    border-color:transparent #fff transparent transparent;/*透明 透明 透明 黄*/
+    position:absolute;
+    top:-0.8rem;
+    left: 0.2rem;
+}
+/*me*/
+.bulid-user .col-xs-2{
+	float: right;
+}
+.bulid-user .col-xs-8{
+	float: right;
+}
+.bulid-user{
+	padding: 4% 2%;
+}
+.bulid-user .col-xs-8{
+	margin-right: 3%;
+}
+.right{
+	background: #8acab9;
+}
+.right span{
+	display: block;
+	width:0;
+    height:0;
+    border-width:0.8rem 0 0.8rem 0.8rem ;
+    border-style:solid;
+    border-color:transparent  transparent transparent #ddd;/*透明 灰 透明 透明 */
+    position:absolute;
+    right: -4%;
+    top:48%;
+}
+.right span em{
+	display:block;
+    width:0;
+    height:0;
+    border-width:0.8rem 0 0.8rem 0.8rem ;
+    border-style:solid;
+    border-color:transparent  transparent transparent #8acab9;/*透明 透明 透明 黄*/
+    position:absolute;
+    top:-0.8rem;
+    right: 0.2rem;
+}
+/*respond-text*/
+.respond-text{
+	background: #fff;
+	height: 3.5rem;
+}
+.list-respond{
+	padding-top: 1.2rem;
+	background: #fff;
+	border: 0.05rem solid #ddd;
+}
+.respond-content{
+	padding-bottom: 1rem;
+}
+.text-img img{ 
+	margin-top: 0.5rem;
+	width: 2.5rem;
+}
+.text-issue{
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+	height: 2.5rem;
+	width: 100%;
+	border: none;
+	background: #ddd;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 0px #ddd;
+	padding: 0.4rem;
+}
+.submit-issue{
+	margin-top: 0.5rem;
+	height: 2.5rem;
+	background: #14907b;
+	border:none;
+	box-shadow: 1px 1px 2px 0px #14907b;
+	color: #fff;
+	width: 4rem;
+	border-radius: 3px;
+}
+.col-xs-8{
+	padding-left: 0;
+}

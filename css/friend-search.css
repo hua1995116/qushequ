@@ -1,0 +1,19 @@
+body,.contain{
+	background: #fff;
+}
+/*title*/
+.list-title{
+    background: #F9F9F9;
+}
+.center-block{
+    color: #424242;
+}
+.center-block .pull-right{
+	margin-right: 5%;
+}
+.center-block .pull-right a{
+	color: #000;
+}
+.list-span{
+	font-size: 1.3rem;
+}

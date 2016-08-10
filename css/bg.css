@@ -1,0 +1,40 @@
+.bg-over{
+	display: none;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;	
+}
+.bg{
+	background: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+}
+.bg-content{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10rem;
+	background: #fff;
+}
+.address-back{
+	height: 2rem;
+	line-height: 2rem;
+	background: #E4E4E4;
+}
+.address{
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 4rem;
+	height: 4rem;
+}
+.address-new{
+	text-align: center;
+	color: #fff;
+	font-size: 1.5rem;
+	line-height: 4rem;
+	height: 4rem;
+	background: #6FB8AD;
+}

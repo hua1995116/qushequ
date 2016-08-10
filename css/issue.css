@@ -17,6 +17,9 @@
 	width: 100%;
 	height: 23rem;
 }
+.issue-content .row{
+	margin:0 auto;
+}
 .issue-content-title{
 	font-size: 1.5rem;
 	padding-top:2%;
@@ -43,7 +46,8 @@
 	width: 5rem;
 	height: 5rem;
 	bottom:-2.5rem;
-	left:12.5rem;
+	left:50%;
+	margin-left:-2.5rem;
 	font-weight: bolder;
 	font-size: 3.4rem;
 	color: #fff;

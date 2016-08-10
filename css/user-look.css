@@ -1,0 +1,61 @@
+body{
+	background: #fff;
+}
+p{
+	font-size: 1.3rem;
+	margin: 0 0 0.2rem 0;
+	color: #7E7E7E;
+}
+/*title*/
+.list-title{
+    background: #F9F9F9;
+}
+.center-block{
+    color: #424242;
+}
+.center-block .pull-right{
+	margin-right: 5%;
+}
+.center-block .pull-right a{
+	color: #000;
+}
+/*title*/
+.look-list{
+	border-bottom: 1px solid #ddd;
+}
+.look-title .col-xs-6{
+	text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+	border-bottom: 1px solid #ddd;
+}
+.ul-list{
+	padding-top: 1rem;
+}
+.ul-list .click{
+	border-bottom: 1px solid #14907b;
+}
+.title-name{
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 1.4rem;
+	color: #8C8C8C;
+}
+.between{
+	border-left: 1px solid #ddd;
+}
+/*/list/*/
+.col-xs-7 p:nth-child(1){
+	padding-top:0.3rem;
+	font-size: 1.4rem;
+}
+.col-xs-7 p:nth-child(2){
+	color: #BCBCBC;
+}
+.img-title{
+	padding: 0.5rem 1.2rem 0 0; 
+}
+.img-click{
+	padding:1.7rem 0.5rem 0.5rem 0.5rem;
+}

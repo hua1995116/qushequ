@@ -20,7 +20,7 @@ body{
 	height: 6rem;
 	color: #ddd;
 	text-align: center;
-	line-height: 6rem;
+	line-height: 5rem;
 	margin-left: 1rem;
 }
 .face{
@@ -33,4 +33,22 @@ body{
 .face li img{
 	width: 2rem;
 	margin-left: 1.5rem;
+}
+#file-img{
+	display: none;
+}
+.submit{
+	margin-top: 0.5rem;
+    height: 2.5rem;
+    background: #14907b;
+    border: none;
+    box-shadow: 1px 1px 2px 0px #14907b;
+    color: #fff;
+    width: 4rem;
+    border-radius: 3px;
+	position: absolute;
+	top:0.5%;
+	right: 6%;
+	z-index: 999;
+	font-size: 1.5rem;
 }

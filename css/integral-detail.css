@@ -1,0 +1,60 @@
+body,.contain{
+	background: #fff;
+}
+/*title*/
+.list-title{
+    background: #F9F9F9;
+}
+.center-block{
+    color: #424242;
+    text-align: left;
+    text-indent: 7%;
+}
+/*img*/
+.integral-img{
+	width: 100%;
+	color: #666666;
+	font-size: 1.4rem;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.integral-img img{
+	width: 100%;
+}
+/*much*/
+.integral-much{
+	width: 94%;
+	margin:0 auto;
+	border-bottom:1px solid #ddd;
+	padding: 0.5rem 0;
+}
+.price{
+	color: #FD9400;
+	font-weight: 400;
+	font-size: 3rem;
+}
+.price img{
+	height: 2rem;
+}
+.change{
+	font-size: 1.4rem;
+	width: 8rem;
+	height: 100%;
+	background:#FD9400; 
+	color: #fff;
+	line-height: 3rem;
+	text-align: center;
+	border-radius: 5px;
+}
+/*detail-#303030-#8E8E8E*/
+.integral-tip{
+	width:94%;
+	margin:0 auto;
+	font-size: 1.2rem;
+	color: #8E8E8E;
+	line-height: 190%;
+}
+.integral-tip h5{
+	color: #303030;
+	font-size:1.3rem;
+}

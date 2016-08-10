@@ -1,0 +1,136 @@
+/*title*/
+.list-title{
+    background: #F9F9F9;
+}
+.center-block{
+    color: #424242;
+}
+.center-block .pull-right{
+	margin-right: 5%;
+}
+.center-block .pull-right a{
+	color: #000;
+}
+/**/
+.first-content{
+	padding-top: 30%;
+}
+.infor-title{
+	border-bottom:1px #ddd solid;
+}
+.col-xs-2{
+	padding: 0;
+}
+.col-xs-10{
+	padding-left: 0;
+}
+.infor-title-img{
+	border:1px solid #ddd;
+	height: 3rem;
+	border-radius: 50px;
+}
+.line-one{
+	margin-bottom:0.5rem ;
+}
+.line-one span img {
+	height: 1.1rem;
+	padding-left: 0.2rem;
+}
+.line-one span{
+	margin-right: 8%;
+	font-size: 1.2rem;
+}
+.line-one span:nth-child(2){
+	font-size: 0.8rem;
+	color:#14907b;
+	border-radius: 50px;
+	border:1px #14907b solid;
+	padding:0.1rem 0.8rem;
+}
+.line-two{
+	color: #14907b;
+	font-size: 1.2rem;
+	margin-bottom:0.5rem ;
+}
+.line-two span{
+	margin-right: 3%;
+}
+.infor-content{
+	font-size: 1.4rem;
+	color:#353a3d;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.infor-img .col-xs-3{
+	width: 6rem;
+	height: 6rem;
+	overflow: hidden;
+	padding-right: 1%;
+    padding-left: 1%;
+}
+.infor-img .col-xs-3 img{
+	width: 100%;
+	height: 100%;
+}
+.infor-tool img{
+	height: 1.4rem;
+}
+.infor-tool{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color:#14907b;
+}
+.infor-tool .col-xs-4{
+	font-size: 1.4rem;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.infor-tool .col-xs-4:nth-child(1){
+	text-indent:2.3rem;
+}
+.infor-tool .col-xs-4:nth-child(2){
+	text-align: center;
+}
+.infor-tool .col-xs-4:nth-child(3){
+	text-indent:2.3rem;
+}
+/*respond-text*/
+.respond-text{
+	background: #fff;
+	height: 3.5rem;
+}
+.list-respond{
+	padding-top: 1.2rem;
+	background: #fff;
+	border: 0.05rem solid #ddd;
+}
+.respond-content{
+	padding-bottom: 1rem;
+}
+.text-img img{ 
+	margin-top: 0.5rem;
+	width: 2.5rem;
+}
+.text-issue{
+	margin-top: 0.5rem;
+	height: 2.5rem;
+	width: 100%;
+	border: none;
+	background: #ddd;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 0px #ddd;
+	padding: 0.4rem;
+}
+.submit-issue{
+	margin-top: 0.5rem;
+	height: 2.5rem;
+	background: #14907b;
+	border:none;
+	box-shadow: 1px 1px 2px 0px #14907b;
+	color: #fff;
+	width: 4rem;
+	border-radius: 3px;
+}
+.col-xs-8{
+	padding-left: 0;
+}

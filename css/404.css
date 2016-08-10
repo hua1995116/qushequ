@@ -1,0 +1,12 @@
+body{
+	background: #fff;
+}
+.center{
+	text-align: center;
+	display: block;
+	margin:30% auto;
+	width:40%;	
+}
+.wenzi{
+	margin-top: 2rem;
+}

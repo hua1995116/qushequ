@@ -1,0 +1,90 @@
+body{
+	background: #fff;
+	color: #8E8E8E;
+}
+.img-responsive{
+	width: 6.1rem;
+	height: 6.1rem;
+	border-radius: 50%;
+}
+/*host*/
+.host{
+	background: #f5f5f5;
+	padding:  1.5rem 0;
+}
+.row{
+	width: 90%;
+	margin: 0 auto;
+}
+.col-xs-9 p{
+	padding-left: 0.4rem;
+	color: #8E8E8E;
+	font-size: 1.4rem;
+	margin: 0 0 0.3rem;
+}
+.host-time{
+	position: absolute;
+	right: 4%;
+	top: 10%;
+	background: #A0A0A0;
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 50%;
+	line-height: 4.5rem;
+	color:#fff;
+	text-align: center;
+}
+.host-time span{
+	font-size: 2.5rem;
+}
+/*join*/
+.join{
+	background: #fff;
+	
+	border-bottom: 1px solid #ddd;
+}
+.joined{
+	text-indent: 2rem;
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+	height: 2.5rem;
+	border-bottom: 1px solid #ddd;
+}
+.join-list{
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+.list li{
+	float: left;
+	width: 6.1rem;
+	height: 6.1rem;
+	border-radius: 50%;
+	background: #ddd;
+	margin: 2% 2%;
+}
+/*achieve*/
+.achieve{
+	padding-top: 10%;
+	background: #fff;
+	width: 80%;
+	margin:0 auto;
+}
+.achieve div{
+	text-align: center;	
+}
+.achieve div span{
+	border-radius: 50%;
+	border:1px solid #ddd;
+	width: 6.1rem;
+	height: 6.1rem;
+	display: block;
+	line-height: 6.1rem;
+	font-size: 2.9rem;
+	text-align: center;
+}
+.stop{
+	float: left;
+}
+.yeah{
+	float: right;
+}

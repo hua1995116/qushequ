@@ -111,5 +111,58 @@ $(document).ready(function(){
 			
 	// 	}
 	// });
-	
-})
+	$(function(){
+		$("#respond").click(function(){
+			window.JsToAndroid.fun1FromAndroid("index-respond");
+			location.href="index-respond.html";
+		});
+		function jump(id){
+	    	location.href=id;
+	    	jsObj.fun1FromAndroid("调用android本地方法");
+	    }
+		function zan(id,changeid){
+    		var url = id;
+    		var args = {"time":new Date()};
+    		$.post(url,args,function(data){
+    			if(data!="-1"){
+    				$("#"+changeid).html("赞+"+data)
+    			}
+    		});
+    	}
+    	$("#new").click(function(){
+    		$("#new").attr("class","click");
+    		$("#hot").attr("class","");
+    		$("#list-hot").css({
+    			display:'none'
+    		});
+    		$("#list").css({
+    			display:'block'
+    		});
+    	});
+    	$("#hot").click(function(){
+    		$("#new").attr("class","");
+    		$("#hot").attr("class","click");
+    		$("#list-hot").css({
+    			display:'block'
+    		});
+    		$("#list").css({
+    			display:'none'
+    		});
+    	});
+//    	if($(".tab-type").html()=="说说"){
+//    		$(".tab-type").addClass("type1");
+//    	}else if($(".tab-type").html()=="求助"){
+//    		$(".tab-type").addClass("type2");
+//    	}else if($(".tab-type").html()=="租房"){
+//    		$(".tab-type").addClass("type3");
+//    	}else if($(".tab-type").html()=="闲置(需)"){
+//    		$(".tab-type").addClass("type4");
+//    	}else if($(".tab-type").html()=="闲置(求)"){
+//    		$(".tab-type").addClass("type5");
+//    	}else if($(".tab-type").html()=="美食"){
+//    		$(".tab-type").addClass("type6");
+//    	}
+
+	});
+		
+});

@@ -1,0 +1,83 @@
+body{
+	background: #fff;
+}
+.contain{
+	background:#fff;
+}
+.offer-title .col-xs-2.click{
+	color: #e40000;
+	border-bottom: 1px solid #e40000;
+}
+/*title*/
+.offer-title .col-xs-2{
+	padding-left: 1rem;
+	line-height: 3rem;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #BCBCBC;
+	text-align: center;
+		color:#BCBCBC;
+}
+.offer-title .col-xs-2 span{
+	/*border-right:1px solid #ddd;*/
+	padding-right: 1rem;
+}
+.col-xs-8 input{
+	width: 80%;
+	border-radius: 50px;
+	border:1px solid #ddd;
+	padding-left: 2rem;
+	height: 2.5rem;
+	margin-left: 2rem;
+	margin-top: 0.3rem;
+}
+/*list*/
+.look-list{
+	margin-top: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #ddd;
+}
+.look-title .col-xs-6{
+	text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+	border-bottom: 1px solid #ddd;
+}
+.ul-list{
+	padding-top: 1rem;
+}
+.ul-list .click{
+	border-bottom: 1px solid #14907b;
+}
+.title-name{
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 1.4rem;
+	color: #8C8C8C;
+}
+.between{
+	border-left: 1px solid #ddd;
+}
+/*/list/*/
+p {
+    margin: 0 0 0.1rem;
+}
+.col-xs-7 p:nth-child(1){
+	color:#000;
+	padding-top:0.3rem;
+	font-size: 1.4rem;
+}
+.col-xs-7 p:nth-child(2){
+	font-size: 1.1rem;
+	color: #BCBCBC;
+}
+.col-xs-7 p:nth-child(3){
+	font-size: 1.2rem;
+	color: #504141;
+}
+.img-title{
+	padding: 0.5rem 1.2rem 0 0; 
+}
+.img-click{
+	padding:1.7rem 0.5rem 0.5rem 0.5rem;
+}

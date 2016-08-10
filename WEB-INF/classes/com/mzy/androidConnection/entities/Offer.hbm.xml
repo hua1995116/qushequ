@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-4-25 22:40:20 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.mzy.androidConnection.entities.Offer" table="OFFER">
+		<id name="id" type="java.lang.Integer">
+			<column name="ID" />
+			<generator class="native" />
+		</id>
+		<property name="offerNumber" type="java.lang.Integer">
+			<column name="OFFERNUMBER" />
+		</property>
+		<property name="jz_memberName" type="java.lang.String">
+			<column name="JZ_MEMBERNAME" />
+		</property>
+		<property name="jz_memberLocation" type="java.lang.String">
+			<column name="JZ_MEMBERLOCATION" />
+		</property>
+		<property name="jz_memberPhoneNumber" type="java.lang.String">
+			<column name="JZ_MEMBERPHONENUMBER" />
+		</property>
+		<property name="jz_serviceType" type="java.lang.String">
+			<column name="JZ_SERVICETYPE" />
+		</property>
+		<property name="jz_serviceDate" type="java.sql.Date">
+			<column name="JZ_SERVICEDATE" />
+		</property>
+		<property name="jz_serviceNeed" type="java.lang.String">
+			<column name="JZ_SERVICENEED" />
+		</property>
+		<property name="jz_companyName" type="java.lang.String">
+			<column name="JZ_COMPANYNAME" />
+		</property>
+		<property name="jz_companyPhoneNumber" type="java.lang.String">
+			<column name="JZ_COMPANYPHONENUMBER" />
+		</property>
+		<property name="jz_companyLocation" type="java.lang.String">
+			<column name="JZ_COMPANYLOCATION" />
+		</property>
+		<property name="from_user" type="java.lang.String">
+			<column name="FROM_USER" />
+		</property>
+		<property name="offer_time" type="java.sql.Date">
+			<column name="OFFER_TIME" />
+		</property>
+	</class>
+</hibernate-mapping>
